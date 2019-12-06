@@ -37,7 +37,7 @@ end
 #     :worldwide_gross=>182207973,
 #     :release_year=>2012}]},
 
-Hello again! I've hit a wall and my start date of this Monday depends on me getting through with Hashketball so I need get through this one I've been stuck on for the past day and a half lol. Here's what I've got
+# Hello again! I've hit a wall and my start date of this Monday depends on me getting through with Hashketball so I need get through this one I've been stuck on for the past day and a half lol. Here's what I've got
 
 # 1)I needed to set a parameter for the following method to take in the argument of directors_database so that I could access it inside of the method. I did that with:
 
@@ -59,12 +59,12 @@ Hello again! I've hit a wall and my start date of this Monday depends on me gett
 
 
 
-def print_first_directors_movie_title
+def print_first_directors_movie_titles
 movie_list = directors_database[0][:movies]
 row_index = 0
   while row_index < movie_list.length do
     puts movie_list[row_index][:title]
-      row_index += 1      
+      row_index += 1
 
     end
   end
